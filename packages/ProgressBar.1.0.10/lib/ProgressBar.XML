@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProgressBar</name>
+    </assembly>
+    <members>
+        <member name="T:ProgressBar.UI">
+            <summary>
+            ProgressBar UI
+            </summary> 
+        </member>
+        <member name="M:ProgressBar.UI.#ctor(System.Object)">
+            <summary>
+            ProgressBar UI constructor
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Start(System.Object)">
+            <summary>
+            To start progressbar
+            </summary>
+            <param name="form"></param>
+        </member>
+        <member name="M:ProgressBar.UI.Stop">
+            <summary>
+            To dispose progressbar
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Play">
+            <summary>
+            To continue progressbar action
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Pause">
+            <summary>
+            To pause progressbar action
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Hide">
+            <summary>
+            To hide progressbar
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Show">
+            <summary>
+            To show progressbar
+            </summary>
+        </member>
+        <member name="F:ProgressBar.UI.interval">
+            <summary>
+            Set timer interval <para />
+            Default = 1000 (lower value means faster steps)
+            </summary>
+        </member>
+        <member name="F:ProgressBar.UI.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ProgressBar.UI.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ProgressBar.UI.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:ProgressBar.UI.Max">
+            <summary>
+            Max steps <para />
+            Default = 100;
+            </summary>
+        </member>
+        <member name="P:ProgressBar.UI.Message">
+            <summary>
+            Get or set message
+            </summary>
+        </member>
+        <member name="T:ProgressBar.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ProgressBar.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ProgressBar.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
